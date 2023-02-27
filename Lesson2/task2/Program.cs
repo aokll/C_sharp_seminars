@@ -8,5 +8,6 @@ int TakeNum(int num)
     if(res1>res2){return res1;}
     else return res2;
 }
-int result = TakeNum(new Random().Next(10,100));
-Console.WriteLine(result);
+int q = new Random().Next(10,100);
+int result = TakeNum(q);
+Console.WriteLine(q + " -> " + result);
